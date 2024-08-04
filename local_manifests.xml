@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="main" fetch="https://github.com/onesmiledx"/>
+  <remote name="meme" fetch="https://github.com/a71-devs"/>
+  
+<!--Trees-->
+  <project path="device/samsung/a71"
+           name="device_samsung_a71"
+           remote="main"
+           revision="aosp-14" />
+  
+    <project path="device/samsung/a71-common"
+           name="device_samsung_a71-common"
+           remote="main"
+           revision="aosp-14" />
+           
+  <project path="vendor/samsung/a71-common"
+           name="vendor_samsung_a71-common"
+           remote="meme"
+           revision="lineage-21" />
+
+    <project path="vendor/samsung/a71"
+           name="vendor_samsung_a71"
+           remote="meme"
+           revision="lineage-21" />
+           
+  <project path="kernel/samsung/a71"
+           name="kernel_samsung_a71"
+           remote="meme"
+           revision="lineage-21" />
+</manifest>
