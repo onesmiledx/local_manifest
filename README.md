@@ -1,22 +1,22 @@
-LineageOS 21.0 for Samsung Galaxy A71
+PixelOS 14 QPR3 for Samsung Galaxy A71
 ------------------------------------
 
 Create directories
 
-	$ mkdir lineage-21  
-	$ cd lineage-21
+	$ mkdir Pixel14  
+	$ cd Pixel14
 
 Init the base manifest
 
-	$ repo init -u git://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+	$ repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs --depth=1
   
 Add the local manifest
 
-  Take the xml file for your device and copy it to .repo/local_manifests/
+  Take the xml file and copy it to .repo/local_manifests/
 
 Then sync up with this command:
 
-	$ repo sync --force-sync 
+	$ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 -------------
  
