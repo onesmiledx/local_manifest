@@ -5,27 +5,32 @@
   
 <!--Trees-->
   <project path="device/samsung/a71"
-           name="device_samsung_a71"
+           name="android_device_samsung_a71"
            remote="main"
            revision="aosp-14" />
   
-    <project path="device/samsung/a71-common"
-           name="device_samsung_a71-common"
+  <project path="device/samsung/a71-common"
+           name="android_device_samsung_a71-common"
            remote="main"
            revision="aosp-14" />
            
   <project path="vendor/samsung/a71-common"
-           name="vendor_samsung_a71-common"
+           name="android_vendor_samsung_a71-common"
            remote="meme"
            revision="lineage-21" />
 
-    <project path="vendor/samsung/a71"
-           name="vendor_samsung_a71"
+  <project path="vendor/samsung/a71"
+           name="android_vendor_samsung_a71"
            remote="meme"
            revision="lineage-21" />
            
   <project path="kernel/samsung/a71"
-           name="kernel_samsung_a71"
+           name="android_kernel_samsung_a71"
+           remote="meme"
+           revision="lineage-21" />
+
+  <project path="hardware/samsung"
+           name="android_hardware_samsung"
            remote="meme"
            revision="lineage-21" />
 </manifest>
