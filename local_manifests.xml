@@ -31,6 +31,6 @@
 
   <project path="hardware/samsung"
            name="android_hardware_samsung"
-           remote="meme"
+           remote="main"
            revision="lineage-21" />
 </manifest>
