@@ -7,7 +7,7 @@
   <project path="device/samsung/a71"
            name="android_device_samsung_a71"
            remote="main"
-           revision="aosp-14" />
+           revision="cherish" />
   
   <project path="device/samsung/a71-common"
            name="android_device_samsung_a71-common"
