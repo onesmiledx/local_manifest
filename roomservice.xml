@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
+    <remote name="github" fetch="https://github.com/"/>
     <project name="RedmiNote10S/android_device_redmi_rosemary" path="device/redmi/rosemary" revision="pixelexperience/thirteen" remote="github" />
     <project name="RedmiNote10S/android_kernel_redmi_rosemary" path="kernel/redmi/rosemary" revision="lineage-20.0" remote="github" />
     <project name="RedmiNote10S/proprietary_vendor_redmi_rosemary" path="vendor/redmi/rosemary" revision="lineage-20.0" remote="github" />
