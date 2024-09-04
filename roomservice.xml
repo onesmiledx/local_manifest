@@ -2,7 +2,7 @@
 <manifest>
   <project name="onesmiledx/android_device_samsung_a71" path="device/samsung/a71" remote="github" revision="aosp-14" />
   <project name="onesmiledx/android_device_samsung_a71-common" path="device/samsung/a71-common" remote="github" revision="aosp-14" />
-  <project name="LineageOS/android_kernel_samsung_a71" path="kernel/samsung/a71" remote="github" revision="lineage-21" />
+  <project name="onesmiledx/android_kernel_samsung_a71" path="kernel/samsung/a71" remote="github" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_samsung_a71" path="vendor/samsung/a71" remote="github" revision="lineage-21" />
   <project name="TheMuppets/proprietary_vendor_samsung_a71-common" path="vendor/samsung/a71-common" remote="github" revision="lineage-21" />
   <project name="onesmiledx/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp-14" />
