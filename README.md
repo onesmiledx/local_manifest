@@ -8,7 +8,7 @@ Create directories
 
 Init the base manifest
 
-	$ repo init -u git://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
+	$ repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
   
 Add the local manifest
 
