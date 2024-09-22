@@ -1,14 +1,14 @@
-LineageOS 21.0 for Samsung Galaxy A71
+PixelOS 14 for Samsung Galaxy A71
 ------------------------------------
 
 Create directories
 
-	$ mkdir lineage-21  
-	$ cd lineage-21
+	$ mkdir Pixel14
+	$ cd Pixel14
 
 Init the base manifest
 
-	$ repo init -u git://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+	$ repo init -u git://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
   
 Add the local manifest
 
@@ -24,5 +24,5 @@ _Building from source_
 ---------------
 
 	$ . build/envsetup.sh
-	$ lunch lineage_a71-ap2a-userdebug
+	$ lunch aosp_a71-ap2a-userdebug
 	$ mka bacon
