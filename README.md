@@ -1,14 +1,14 @@
-PixelOS 14 for Samsung Galaxy A71
+RisingOS for Samsung Galaxy A71
 ------------------------------------
 
 Create directories
 
-	$ mkdir Pixel14
-	$ cd Pixel14
+	$ mkdir Rising14
+	$ cd Rising14
 
 Init the base manifest
 
-	$ repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
+	$ repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
   
 Add the local manifest
 
@@ -24,5 +24,5 @@ _Building from source_
 ---------------
 
 	$ . build/envsetup.sh
-	$ lunch aosp_a71-ap2a-userdebug
-	$ mka bacon
+	$ riseup a71 userdebug
+	$ rise b
